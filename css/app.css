@@ -289,6 +289,10 @@ img {
 }
 .entrada__descripcion{
     font-size: 1.6rem;
+    display: -webkit-box;
+    -webkit-box-pack: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
 }
 .entrada__enlace{
     margin-top: 2rem;
